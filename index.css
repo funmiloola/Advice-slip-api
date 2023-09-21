@@ -3,6 +3,11 @@ body{
     background-color: hsl(218, 23%, 16%);
     font-family: [Manrope];
 }
+@media (max-width:786px){
+    body{
+        width:300px;
+    }
+}
 .container{
     border:1px solid hsl(217, 19%, 24%);
     width:375px;
@@ -12,14 +17,69 @@ body{
     position: relative;
     background-color:hsl(217, 19%, 24%) ;
 }
+@media (max-width:786px){
+    .container{
+        width:230px;
+        margin-left:auto;
+        margin-right: auto;
+        border-radius:5px;
+    }
+}
 h1{
    color:hsl(150, 100%, 66%);
    font-size:16px;
    padding-left:8rem;
 }
+@media (max-width:786px){
+    h1{
+        padding-left: 4rem;
+        padding-top:1rem;
+    }
+}
 p{
    font-weight: 800; 
-   font-size: 28px;
+   font-size: 24px;
    padding-left: 3rem;
-   padding-right: 0.5rem;
+   padding-right: 1rem;
+   color:hsl(193, 38%, 86%);
+}
+@media (max-width:786px){
+    p{
+       padding-left: 1rem;
+       padding-right: 0.5rem;
+    }
+}
+.divider-icon{
+    padding-left: 2.5rem;
+    width:444px;
+    height:16px;
+}
+@media (max-width:786px){
+    .divider-icon{
+        padding-left:1rem;
+        width:200px;
+        height:16px;
+        padding-right:1rem;
+    }
+}
+.icon-dice{
+    width:14px;
+    height: 14px;
+    padding-left:0.7rem;
+    padding-right: 0.5rem;
+    padding-top:0.7rem;
+}
+.icon-container{
+    border:1px solid hsl(150, 100%, 66%);
+    border-radius: 50px;
+    width:36px;
+    height:36px;
+    margin-left:10.7rem;
+    transform: translateY(20px);
+    background-color: hsl(150, 100%, 66%);
+}
+@media (max-width:786px){
+    .icon-container{
+        margin-left:6.1rem;
+    }
 }

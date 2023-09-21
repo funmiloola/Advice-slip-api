@@ -6,6 +6,6 @@ fetch('https://api.adviceslip.com/advice')
 })
  .then(data =>{
     adviceId.textContent = `ADVICE # ${data.slip.id}`
-    details.textContent = `${data.slip.advice}`
+    details.textContent = `"${data.slip.advice}"`
  })
  .catch(error => console.log(error));
