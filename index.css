@@ -1,3 +1,4 @@
+
 body{
     width:1440px;
     background-color: hsl(218, 23%, 16%);
@@ -19,10 +20,10 @@ body{
 }
 @media (max-width:786px){
     .container{
-        width:430px;
+        width:360px;
         border-radius:5px;
-        margin-left:auto;
-        margin-right:12px;
+        margin-left:8px;
+        margin-right:10px;
     }
 }
 h1{
@@ -33,7 +34,7 @@ h1{
 }
 @media (max-width:786px){
     h1{
-        padding-left:11.5rem;
+        padding-left:8.7rem;
         padding-top:1rem;
     }
 }
@@ -57,7 +58,7 @@ p{
 @media (max-width:786px){
     .divider-icon{
         padding-left: 1rem;
-        width:400px;
+        width:320px;
         height:16px;
         
     }
@@ -80,6 +81,6 @@ p{
 }
 @media (max-width:786px){
     .icon-container{
-        margin-left:12.4rem;
+        margin-left:9.9rem;
     }
 }
