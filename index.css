@@ -29,6 +29,7 @@ h1{
    color:hsl(150, 100%, 66%);
    font-size:16px;
    padding-left:8rem;
+   padding-top: 1rem;
 }
 @media (max-width:786px){
     h1{
@@ -51,7 +52,6 @@ p{
 }
 .divider-icon{
     padding-left: 2.5rem;
-    width:444px;
     height:16px;
 }
 @media (max-width:786px){
